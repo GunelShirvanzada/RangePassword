@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171718;
+    font-family: "Dosis", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.passAll {
+    border-radius: 5px;
+    background-color: #2a2a2c;
+    font-size: 18px;
+}
+
+.form_control {
+    padding: 10px 30px;
+}
+
+.line {
+    padding: 10px;
+    background-color: #171718;
+    border: none;
+}
+
+/* PASS----------------------------------------------- */
+
+.formPass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#pass {
+    padding: 15px 0;
+    width: 100%;
+    background-color: #2a2a2c;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5d5d5f;
+}
+
+#pass:hover {
+    background-color: #2a2a2c;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5d5d5f;
+}
+
+#pass:focus {
+    outline: none;
+}
+
+.formPass i {
+    color: #54a085;
+}
+
+.formPass i:hover {
+    color: #fff;
+}
+
+/* RANGE----------------------------------------------- */
+
+.slider {
+    appearance: none;
+    width: 100%;
+    height: 7px;
+    background: linear-gradient(90deg,
+            #171718 60%,
+            #171718 60%);
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #171718;
+    border: 2px solid #54a074;
+    border-radius: 50%;
+}
+
+p {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CHECKBOX------------------------------------------- */
+
+input[type='checkbox'] {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #ccc;
+
+}
+
+input[type='checkbox']:checked {
+    background-color: #54a074;
+    border: none;
+}
+
+
+/* STRENGTH------------------------------------------- */
+
+#strength {
+    display: flex;
+    justify-content: space-between;
+    background-color: #171718;
+    padding: 14px;
+    color: #5d5d5f;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.strengthBox {
+    border: 1px solid #aeaeb0;
+    padding: 3px;
+}
+
+/* GENERATE------------------------------------------- */
+
+#btn {
+    margin-bottom: 30px;
+    padding: 14px 100px;
+    background-color: #54a074;
+    color: #fff;
+    border: none;
+}
+
+#btn:hover {
+    background-color: #2a2a2c;
+    border: 1px solid #54a074;
+}
